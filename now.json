@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "evertt2",
+    "name": "now-graphql-typescript",
     "builds": [
       { "src": "src/index.ts", "use": "@now/node@canary" }
     ],
