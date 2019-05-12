@@ -7,6 +7,6 @@ This is a  boilerplate application using:
 ## Local - test
 Run `yarn start:dev` to try it out locally.
 
-## now - deployment
+## Now - deployment
 
 After installing the now CLI, type `now` in this directory to deploy it.
