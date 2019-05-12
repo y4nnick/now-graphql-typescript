@@ -6,8 +6,5 @@
   "dependencies": {
     "apollo-server-micro": "^2.5.0",
     "graphql": "^14.3.0"
-  },
-  "devDependencies": {
-    "@types/node": "^10.12.18"
   }
 }
