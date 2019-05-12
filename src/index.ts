@@ -12,9 +12,20 @@ const resolvers = {
   },
 };
 
+const defaultQuery = `query {
+  hello
+}`
+
 const apolloServer = new ApolloServer({
   introspection: true,
-  playground: true,
+  playground: {
+    tabs: [
+      {
+        endpoint: process.env.NODE_ENV === 'production' ? 'https://now-graphql-typescript.y4nnick.now.sh/graphql' : 'http://localhost:3000/graphql',
+        query: defaultQuery,
+      },
+    ],
+  },
   typeDefs,
   resolvers,
 })
