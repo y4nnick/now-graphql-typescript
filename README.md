@@ -4,8 +4,6 @@ This is a  boilerplate application using:
  - `typescript`
  - `apollo-server-micro`
 
-[Live-Demo](https://now-graphql-typescript.y4nnick.now.sh/)
-
 ## Local - test
 Run `yarn start:dev` to try it out locally.
 
